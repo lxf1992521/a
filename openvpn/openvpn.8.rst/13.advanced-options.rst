@@ -17,13 +17,7 @@ used when debugging or testing out special usage scenarios.
 --bcast-buffers n
   Allocate ``n`` buffers for broadcast datagrams (default :code:`256`).
 
---persist-local-ip
-  Preserve initially resolved local IP address and port number across
-  ``SIGUSR1`` or ``--ping-restart`` restarts.
 
---persist-remote-ip
-  Preserve most recently authenticated remote IP address and port number
-  across :code:`SIGUSR1` or ``--ping-restart`` restarts.
 
 --rcvbuf size
   Set the TCP/UDP socket receive buffer size. Defaults to operating system
